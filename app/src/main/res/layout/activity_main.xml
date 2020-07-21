@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ADD_PDF"
+        android:text="Add to PDF"/>
+        <EditText
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter File Name"
+            android:id="@+id/Name"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        >
+
+        <ImageView
+            android:id="@+id/img_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3" />
+    </LinearLayout>
+</LinearLayout>
